@@ -4,7 +4,7 @@ const removeFromArray = function() {
     if (Array.isArray(args[0]) == false) {
         return 'Error'; }
     let newArray = args[0]
-    // if arguments > 1 then intialise a for loop to iterate over each one past the first.
+    // if there are adequate arguments, intialise a for loop to iterate over each one (past the array itself).
     if (args.length > 1) {
         // for each iteration of the loop compare the value against each position of the original array
         for (let i = 1; i <= args.length; i++){
